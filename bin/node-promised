@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var repl = require("repl");
+var promisify = require("../index").promisify;
+
+global.Q = require("q");
+promisify(repl.start({}));

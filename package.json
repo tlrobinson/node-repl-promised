@@ -1,0 +1,35 @@
+{
+  "name": "repl-promised",
+  "version": "0.1.0",
+  "description": "Make any Node.js REPL support promises (Promises/A+).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlrobinson/node-repl-promised.git"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "promises/a",
+    "promises/a+",
+    "promises-a",
+    "promises-aplus",
+    "repl",
+    "q"
+  ],
+  "author": "Tom Robinson <tlrobinson@gmail.com> (http://tlrobinson.net/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/tlrobinson/node-repl-promised/issues"
+  },
+  "dependencies": {
+    "q": "~0.9.6"
+  },
+  "bin": {
+    "node-promised": "./bin/node-promised",
+    "coffee-promised": "./bin/coffee-promised"
+  }
+}
