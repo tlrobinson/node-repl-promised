@@ -11,8 +11,3 @@ exports.promisify = function(repl) {
     });
   }
 }
-
-if (require.main === module) {
-  var repl = require("repl").start({});
-  exports.promisify(repl);
-}
